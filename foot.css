@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=sofia');
+*{
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+footer{
+    position: relative;
+    bottom: 0px; 
+    width: 100%;
+    height: auto;
+    background:#111;
+}
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis:40%;
+    padding: 10px 10px;
+}
+.box h2{
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 10px 0 0 0;
+}
+.left .content p{
+    text-align: justify;
+}
+.left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a{
+    padding: 0 2px
+}
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.left .content .social a span:hover{
+    background: #f12020;
+}
+.center .content .fas{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.center .content .fas:hover{
+    background: #f12020;
+}
+.center .content .text{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.center .content .phone{
+    margin: 10px 0;
+}
+.right form .text{
+    font-size: 1em;
+
+}
+.right form .msg{
+    margin-top: 10px;
+}
+.right form input, .right form textarea{
+    width: 100%;
+    font-size: 1rem;
+    background: #151515;
+    padding-left: 10px;
+    border:1px solid #222222
+}
+.right form input:focus,
+.right form textarea:focus{
+    outline-color: #3498db;
+}
+.right form input{
+    height: 35px;
+}
+.right form .send-btn{
+    margin-top: 10px;
+}
+.right form .send-btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.right form .send-btn button:hover{
+    background: #000;
+}
+
+
+

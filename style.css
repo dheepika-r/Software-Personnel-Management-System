@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    color: #222;
+    font-size: 100%;
+    line-height: 24px;
+    background: #67B26F; 
+    background: -webkit-linear-gradient(to left, #4ca2cd, #67B26F); 
+    background: linear-gradient(to left, #4ca2cd, #67B26F);
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+  padding: 10px;
+}
+
+.card {
+    border-radius: 10px;
+}
+.card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+ .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a0e0e;
+}
+
+ .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.table th,
+.table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+section,footer {
+    display: block;
+}
+a{
+	font-family: "Raleway",sans-serif;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #373e18;
+}
+section {
+    float: left;
+    width: 100%;
+	padding-bottom:3em;
+}
+h2 p .mb-0{
+    color: #1a0e0e;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+	text-transform:uppercase;
+}
+h2 span {
+    display: block;
+    padding: 0;
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 5px;
+	text-transform:uppercase;
+}
+.pr-1{
+  color: #333;
+}
+footer{
+  margin-top: auto;
+  margin: auto 0;
+  position: absolute;
+}
+
+.mb-0{
+  color: #1a0e0e;
+}
+
+

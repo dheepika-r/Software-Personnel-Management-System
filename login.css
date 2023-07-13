@@ -1,0 +1,79 @@
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Gill Sans MT", sans-serif;
+    background: url(images/bg2.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #905E96;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  input[type=checkbox]{
+    cursor: pointer;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.employee {
+    width: 40%;
+    height: 14rem;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+    
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #905E96;
+    cursor: pointer;
+  }
+  span .psw {
+    float: left;
+    padding-top: 16px;
+    color: #333;
+  }
+
+
+  
